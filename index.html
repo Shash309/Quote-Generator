@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Particle Background with Quotes</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- Particles.js -->
+</head>
+<body>
+  <!-- Particle Background -->
+  <div id="particles-js"></div>
+
+  <!-- Content -->
+  <div class="container">
+    <h1>Random Quote Generator</h1>
+    <div id="quote-box">
+      <p id="quote">Click below to generate a quote!</p>
+      <p id="author">- Unknown</p>
+    </div>
+    <div class="buttons">
+      <button id="new-quote">New Quote</button>
+      <button id="copy-quote">Copy Quote</button>
+    </div>
+    <div id="message" style="display: none;">Quote copied!</div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
